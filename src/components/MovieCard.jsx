@@ -1,11 +1,8 @@
-import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Link } from "react-router-dom";
 
 function MovieCard(props) {
   const { movie } = props;
   return (
-    // <div className="md:ml-[15rem]">
-
     <div>
       <div className="card relative w-full md:w-60 h-[410px] md:h-[360px] my-3 mx-4 md:my-5 md:mx-0 cursor-pointer rounded-xl overflow-hidden">
         <div className="absolute bottom-0 w-full flex justify-between items-end p-3 z-20">
